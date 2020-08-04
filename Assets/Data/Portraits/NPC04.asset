@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39431e5dbfd41947a773bd2ad6309a4, type: 3}
+  m_Name: NPC04
+  m_EditorClassIdentifier: 
+  name: Collectionneur
+  Portrait: {fileID: 21300000, guid: 3a412f145140af74eb33eb9ebfd638b5, type: 3}

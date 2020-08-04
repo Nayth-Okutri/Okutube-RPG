@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &339837730762619322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 339837730762618949}
+  - component: {fileID: 339837730762618948}
+  - component: {fileID: 339837730762619323}
+  - component: {fileID: 8318443295545306365}
+  - component: {fileID: 168314580}
+  - component: {fileID: 7618950378901567798}
+  - component: {fileID: 1476652362}
+  - component: {fileID: 3363714600461665742}
+  - component: {fileID: 1213934993}
+  - component: {fileID: 489384752}
+  m_Layer: 0
+  m_Name: _Preload
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &339837730762618949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339837730762619322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.27593338, y: -0.085049555, z: -1122.1736}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &339837730762618948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339837730762619322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2648e1cdd53e9943a34a28e4c616710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnDateChange: {fileID: 11400000, guid: 6937bbc8962e6164189327a2452d6827, type: 2}
+  OnDateChangeTrigger: {fileID: 11400000, guid: 6653e6a2b94071a43ae46c7dfb0a0105,
+    type: 2}
+--- !u!114 &339837730762619323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339837730762619322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26c23bc1752b58499e148b47c64f253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerController: {fileID: 0}
+  CameraConfiners: {fileID: 0}
+  LevelLoaders: {fileID: 0}
+  gameCalendar: {fileID: 11400000, guid: 6c29edbd509d72b4e813ca028d89d3a1, type: 2}
+  MainCharacter: {fileID: 0}
+  CurrentDayMobCount: 0
+  LootInPlay: {fileID: 0}
+  IntroFab: {fileID: 1216421370703846337, guid: 0407e7fcd5f761744a8e344fe2181471,
+    type: 3}
+  IntroductionDialog: {fileID: 11400000, guid: 1458eed92562199498288cef2674d8ab, type: 2}
+--- !u!114 &8318443295545306365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339837730762619322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df61d162d7aec814881b1732b5dd96b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneTransitionObject: {fileID: 0}
+  DateChangeObject: {fileID: 0}
+  ChangeDayFXClip: {fileID: 8300000, guid: 73e2545eda10c1a4b9f90d16c27eb276, type: 3}
+  ChangeSceneClip: {fileID: 8300000, guid: 8eab6983e41a5254aa36c48149769c72, type: 3}
+  NewDayCutscenes:
+  - {fileID: 11400000, guid: 542a724cecc26e14ebcf67dfebe0bf01, type: 2}
+  - {fileID: 11400000, guid: 73c1c63cfd4859741a24b05e0808a166, type: 2}
+--- !u!114 &168314580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339837730762619322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7818ebc042a1414cb696852c45f2fb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SocialStats:
+  - {fileID: 11400000, guid: 025bf9b480ce86c4eb75de1503aa96c4, type: 2}
+  - {fileID: 11400000, guid: cc1250ee0c4ae0f4a8a3d35aa52b77f8, type: 2}
+  - {fileID: 11400000, guid: ea760be060cd12447aa1eed9fad815a1, type: 2}
+  - {fileID: 11400000, guid: e3465f861d61c0d49a845ec9adf186b9, type: 2}
+  - {fileID: 11400000, guid: 704d2b851ab9a1b499fe724b26d28d7d, type: 2}
+  Level: 0
+  Inspiration: 0
+  OnCannotAddSidekick: {fileID: 11400000, guid: 47e37fd50cc3e504d8a9fd576f61fda1,
+    type: 2}
+  OnRecruitSidekick: {fileID: 11400000, guid: 8fd5ac9d1f02852458206eecd9ef9d03, type: 2}
+--- !u!114 &7618950378901567798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339837730762619322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068edd5cff5cef24eae3d66f49b1097e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AtelierPosition: {x: 0, y: 0, z: 0}
+  OnActivityComplete: {fileID: 11400000, guid: f76b6080c2027a34aa3da3e23da985da, type: 2}
+  OnActivityQuery: {fileID: 11400000, guid: 2738886615bdff1479d564752ae81486, type: 2}
+  ToSendString: 
+  ScoreBonus: 0
+--- !u!114 &1476652362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339837730762619322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f82c8db0a4aa284ab3627ada0aa4704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnChangeInventory: {fileID: 11400000, guid: 4263739c520af8f4694387e8f99f7eda, type: 2}
+--- !u!114 &3363714600461665742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339837730762619322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b89934a203e21474cb191786fd43f608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theCurrentQuest: {fileID: 0}
+  OnQuestStarted: {fileID: 11400000, guid: f61e82d8e4507c6408d5392fa7a9a4ac, type: 2}
+  OnQuestAlreadyDone: {fileID: 11400000, guid: 7d373880d75260b4baec59ed254f4fe5, type: 2}
+--- !u!114 &1213934993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339837730762619322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5506ef5970d01bb43a2e8df57fec0a94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventAndResponses:
+  - name: QuestCompleted
+    gameEvent: {fileID: 11400000, guid: d6a55c7effd8bc04c97ce34cf7e018d6, type: 2}
+    response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3363714600461665742}
+          m_MethodName: OnFinishQuest
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    responseForSentString:
+      m_PersistentCalls:
+        m_Calls: []
+    responseForSentInt:
+      m_PersistentCalls:
+        m_Calls: []
+    responseForSentFloat:
+      m_PersistentCalls:
+        m_Calls: []
+    responseForSentBool:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: StartChangeDateTransition
+    gameEvent: {fileID: 11400000, guid: 6653e6a2b94071a43ae46c7dfb0a0105, type: 2}
+    response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8318443295545306365}
+          m_MethodName: StartNewDay
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    responseForSentString:
+      m_PersistentCalls:
+        m_Calls: []
+    responseForSentInt:
+      m_PersistentCalls:
+        m_Calls: []
+    responseForSentFloat:
+      m_PersistentCalls:
+        m_Calls: []
+    responseForSentBool:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: RestoreOldScene
+    gameEvent: {fileID: 11400000, guid: cd69ced23647e2640a58a1a397cb416d, type: 2}
+    response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8318443295545306365}
+          m_MethodName: RestorePreviousScene
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    responseForSentString:
+      m_PersistentCalls:
+        m_Calls: []
+    responseForSentInt:
+      m_PersistentCalls:
+        m_Calls: []
+    responseForSentFloat:
+      m_PersistentCalls:
+        m_Calls: []
+    responseForSentBool:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: OnActivityFinalize
+    gameEvent: {fileID: 11400000, guid: ebf7dfda5e744da4f88b2d24b8ee9960, type: 2}
+    response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7618950378901567798}
+          m_MethodName: FinalizeActivity
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    responseForSentString:
+      m_PersistentCalls:
+        m_Calls: []
+    responseForSentInt:
+      m_PersistentCalls:
+        m_Calls: []
+    responseForSentFloat:
+      m_PersistentCalls:
+        m_Calls: []
+    responseForSentBool:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!114 &489384752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339837730762619322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2e14204dff49744980408a4c61f07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsToPool:
+  - objectToPool: {fileID: 5100410447581675503, guid: b35b9d3233e5bcb4885a6300b0a0dea2,
+      type: 3}
+    amountToPool: 3
+    shouldExpand: 1
+  - objectToPool: {fileID: 4241195134760829448, guid: 14e6b3fd87ead134ba60551389c3683d,
+      type: 3}
+    amountToPool: 5
+    shouldExpand: 1
+  - objectToPool: {fileID: 1728057061458916381, guid: a5dc6090636d51a48812c3b9ee08bf57,
+      type: 3}
+    amountToPool: 5
+    shouldExpand: 1
+  pooledObjects: []

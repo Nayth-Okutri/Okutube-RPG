@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b2eda40d9d52f4cad56a1a8755bea5, type: 3}
+  m_Name: Reveil01
+  m_EditorClassIdentifier: 
+  animationPrefab: {fileID: 7141070837324673609, guid: 0b72bd326307d764dbe34c7723ae172f,
+    type: 3}
+  animationAudio: {fileID: 8300000, guid: 441b264582510e643a76c09dfe08e31a, type: 3}
+  AnimationDuration: 5
+  scenesInitialPositions:
+  - SceneIndex: 1
+    Position: {x: 0.59, y: 0, z: 0}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7685deecad8a9a747b998879a2202280, type: 3}
+  m_Name: Reading
+  m_EditorClassIdentifier: 
+  fullname: Lecture
+  description: "La lecture et la connaissance du monde est n\xE9cessaire pour appr\xE9hender
+    des activit\xE9s culturelle. Choisissez une lecture ad\xE9quate \xE0 vos aspirations
+    !"
+  shortDescription: Prendre le temps de lire
+  Reward:
+    sideKick: {fileID: 0}
+    itemRewards:
+    - item: {fileID: 11400000, guid: 9a2f96cd91afb954bb7c4aa0d4b8c482, type: 2}
+      itemCount: 10
+    statRewards:
+    - stat: {fileID: 11400000, guid: 704d2b851ab9a1b499fe724b26d28d7d, type: 2}
+      statAmount: 3
+  statIncrease: {fileID: 11400000, guid: cc1250ee0c4ae0f4a8a3d35aa52b77f8, type: 2}
+  statIncreaseValue: 1
+  TimeSpent: 10
+  Challenges:
+  - {fileID: 11400000, guid: 537c6779515d50e48b29e2d3bb725c4f, type: 2}

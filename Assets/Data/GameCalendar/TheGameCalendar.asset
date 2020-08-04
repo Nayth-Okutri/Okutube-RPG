@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8205c0c5f626b00408e87bfb29bb3db7, type: 3}
+  m_Name: TheGameCalendar
+  m_EditorClassIdentifier: 
+  BaseSocialEvents:
+  - gameEvent: {fileID: 11400000, guid: e2b8710719ec81e47956e041ea6848ae, type: 2}
+    Occurrence: 3
+    probability: 0.2
+  - gameEvent: {fileID: 11400000, guid: 0c9ff2279b26e82428c35314305db2d1, type: 2}
+    Occurrence: 1
+    probability: 0
+  - gameEvent: {fileID: 0}
+    Occurrence: 0
+    probability: 0
+  - gameEvent: {fileID: 0}
+    Occurrence: 0
+    probability: 0
+  NumberOfDays: 30

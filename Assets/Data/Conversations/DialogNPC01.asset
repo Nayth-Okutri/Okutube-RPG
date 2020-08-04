@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e1849b1ef15a34c81ee327f4cbc842, type: 3}
+  m_Name: DialogNPC01
+  m_EditorClassIdentifier: 
+  LeftPortrait: {fileID: 11400000, guid: 2e880e749a8b6454682b879a0aa637a8, type: 2}
+  RightPortrait: {fileID: 11400000, guid: 2369869c3ba19a543b6ce2f78759b8f8, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 2e880e749a8b6454682b879a0aa637a8, type: 2}
+    text: Stp tu me dessines un mouton ?
+  - character: {fileID: 11400000, guid: 2369869c3ba19a543b6ce2f78759b8f8, type: 2}
+    text: "Comment ca ? Pourquoi tu me demande \xE0 moi ?"
+  - character: {fileID: 11400000, guid: 2e880e749a8b6454682b879a0aa637a8, type: 2}
+    text: T'es un artiste non ? Allez, dessine moi un mouton...
+  question: {fileID: 11400000, guid: 29c20b3e4955375428f91eee42c07bbd, type: 2}

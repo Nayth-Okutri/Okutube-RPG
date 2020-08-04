@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e1849b1ef15a34c81ee327f4cbc842, type: 3}
+  m_Name: DialogNPC02
+  m_EditorClassIdentifier: 
+  LeftPortrait: {fileID: 11400000, guid: 6b88b73c9e68615428c83e87a1cb0d18, type: 2}
+  RightPortrait: {fileID: 11400000, guid: 2369869c3ba19a543b6ce2f78759b8f8, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 6b88b73c9e68615428c83e87a1cb0d18, type: 2}
+    text: "Etre un artiste amateur, c'est le pire truc du monde. T'as trop de truc
+      \xE0 g\xE9rer, c'est infini !"
+  - character: {fileID: 11400000, guid: 2369869c3ba19a543b6ce2f78759b8f8, type: 2}
+    text: "Et m\xEAme au del\xE0 ! Je te le fait pas dire, ca me d\xE9prime ! HAHHAHHAH...hoho."
+  question: {fileID: 0}

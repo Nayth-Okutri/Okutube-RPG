@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b7eaa9b82857b40a796399e5181930, type: 3}
+  m_Name: RecruteTest
+  m_EditorClassIdentifier: 
+  fullname: Recruter Enfant
+  description: test
+  shortDescription: test
+  Reward:
+    sideKick: {fileID: 11400000, guid: 751547575e6586d489358d17476f4caa, type: 2}
+    itemRewards: []
+    statRewards: []
+  startingRequirements:
+    itemRequirement: []
+    socialStatRequirement: []
+  QuestId: 0
+  completionRequirements:
+    itemRequirement:
+    - item: {fileID: 11400000, guid: f50fee8bd2534cf4f845c6ee318c36b2, type: 2}
+      itemCount: 1
+    socialStatRequirement: []
+  QuestInprogressConversation: {fileID: 11400000, guid: 7093745af46650b43b1783f20d669fda,
+    type: 2}
+  QuestCompletedConversation: {fileID: 11400000, guid: 93a7082e037f4724786b1c2fb232df2d,
+    type: 2}
+  Completed: 0

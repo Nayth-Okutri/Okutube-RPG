@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f50eb260b933d404bb14e93c285569ab, type: 3}
+  m_Name: QuizzAna_01
+  m_EditorClassIdentifier: 
+  text: Qu'est ce que tu voudrais faire ?
+  Choices:
+  - text: "Donne moi les activit\xE9s du jour"
+    conversation: {fileID: 11400000, guid: e7d69da843e68014f9f9d2477e952353, type: 2}
+    TrigerredQuest: {fileID: 0}
+  - text: Tu me voulais un truc ?
+    conversation: {fileID: 11400000, guid: 8833518edb197964a9c7805a17caa5d8, type: 2}
+    TrigerredQuest: {fileID: 11400000, guid: 0c9ff2279b26e82428c35314305db2d1, type: 2}
+  - text: "Rien du tout, retourne jouer \xE0 la dinette !"
+    conversation: {fileID: 11400000, guid: e81381b0f4e712a44a798480cdf82b75, type: 2}
+    TrigerredQuest: {fileID: 0}

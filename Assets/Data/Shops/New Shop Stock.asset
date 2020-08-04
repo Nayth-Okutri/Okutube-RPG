@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7873991129e3c940a755ad0ba4f6685, type: 3}
+  m_Name: New Shop Stock
+  m_EditorClassIdentifier: 
+  AvailableItems:
+  - {fileID: 11400000, guid: ee30ec2fbe85fd748ad6e86be2859700, type: 2}
+  - {fileID: 11400000, guid: 1ebc027cd638f4441a9e5ccd9d5e45e2, type: 2}
+  - {fileID: 11400000, guid: cdd315f89127b424baa6b2647f0052e8, type: 2}
+  - {fileID: 11400000, guid: f50fee8bd2534cf4f845c6ee318c36b2, type: 2}
+  PriceList: 50000000320000001400000078000000

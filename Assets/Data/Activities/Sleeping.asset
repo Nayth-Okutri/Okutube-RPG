@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7685deecad8a9a747b998879a2202280, type: 3}
+  m_Name: Sleeping
+  m_EditorClassIdentifier: 
+  fullname: Sieste
+  description: "Dormir permet de gagner en concentration et diminue l'\xE9ventualit\xE9
+    de rater ses activit\xE9s."
+  shortDescription: Roupiller un peu
+  Actvityname: Sieste
+  statIncrease: {fileID: 11400000, guid: 704d2b851ab9a1b499fe724b26d28d7d, type: 2}
+  statIncreaseValue: 2
+  TimeSpent: 1
+  Challenges:
+  - {fileID: 11400000, guid: a174e68421f00164f886b9ff23001d91, type: 2}

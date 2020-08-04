@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7685deecad8a9a747b998879a2202280, type: 3}
+  m_Name: TelephoneHell
+  m_EditorClassIdentifier: 
+  fullname: "Le t\xE9l\xE9phone de l'enfer"
+  description: "Persecut\xE9 par son t\xE9l\xE9phone, il faudra survivre aux notifications
+    toxiques lanc\xE9s en permanence."
+  shortDescription: "Le t\xE9l\xE9phone de l'enfer"
+  Reward:
+    sideKick: {fileID: 0}
+    itemRewards: []
+    statRewards:
+    - stat: {fileID: 11400000, guid: 025bf9b480ce86c4eb75de1503aa96c4, type: 2}
+      statAmount: 1
+    - stat: {fileID: 11400000, guid: 704d2b851ab9a1b499fe724b26d28d7d, type: 2}
+      statAmount: 1
+  statIncrease: {fileID: 11400000, guid: 025bf9b480ce86c4eb75de1503aa96c4, type: 2}
+  statIncreaseValue: 3
+  TimeSpent: 6
+  Challenges:
+  - {fileID: 11400000, guid: 66cb5dca24896d84b809b7d8b549d6b6, type: 2}

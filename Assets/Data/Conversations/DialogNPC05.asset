@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e1849b1ef15a34c81ee327f4cbc842, type: 3}
+  m_Name: DialogNPC05
+  m_EditorClassIdentifier: 
+  LeftPortrait: {fileID: 11400000, guid: cca6e32642b43384fafe8bbfd068358a, type: 2}
+  RightPortrait: {fileID: 11400000, guid: 2369869c3ba19a543b6ce2f78759b8f8, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: cca6e32642b43384fafe8bbfd068358a, type: 2}
+    text: "Ouhla ! J'ai faim... Je me ferais bien un \xE9norme bol de Ramen sal\xE9
+      !"
+  - character: {fileID: 11400000, guid: 2369869c3ba19a543b6ce2f78759b8f8, type: 2}
+    text: "Idem, je cr\xE8ve la dalle !! tu connais des endroits cools pour aller
+      manger des ramens ?"
+  question: {fileID: 0}

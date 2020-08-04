@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7685deecad8a9a747b998879a2202280, type: 3}
+  m_Name: Drawing
+  m_EditorClassIdentifier: 
+  fullname: Dessin
+  description: "Dessiner constitue l'activit\xE9 principale du dessinateur. Il faudra
+    d\xE9cider et emmagasiner ded l'exp\xE9rience pour produire ce qui se fait de
+    mieux \xE0 exposer \xE0 la convention"
+  shortDescription: Dessiner le Fanzine
+  Reward:
+    sideKick: {fileID: 0}
+    itemRewards: []
+    statRewards:
+    - stat: {fileID: 11400000, guid: e3465f861d61c0d49a845ec9adf186b9, type: 2}
+      statAmount: 2
+  statIncrease: {fileID: 11400000, guid: e3465f861d61c0d49a845ec9adf186b9, type: 2}
+  statIncreaseValue: 2
+  TimeSpent: 3
+  Challenges:
+  - {fileID: 11400000, guid: 5a8a05913d3969a4586814439bc2fbfa, type: 2}

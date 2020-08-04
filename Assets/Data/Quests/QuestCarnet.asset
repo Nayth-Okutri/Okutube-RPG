@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b7eaa9b82857b40a796399e5181930, type: 3}
+  m_Name: QuestCarnet
+  m_EditorClassIdentifier: 
+  fullname: Retrouve le carnet de Ana
+  description: File moi un carnet !! Je veux dessiner vindiou..
+  shortDescription: 
+  Reward:
+    sideKick: {fileID: 0}
+    itemRewards:
+    - item: {fileID: 11400000, guid: 9a2f96cd91afb954bb7c4aa0d4b8c482, type: 2}
+      itemCount: 10
+    statRewards:
+    - stat: {fileID: 11400000, guid: 704d2b851ab9a1b499fe724b26d28d7d, type: 2}
+      statAmount: 1
+  QuestId: 1
+  completionRequirements:
+    itemRequirement:
+    - item: {fileID: 11400000, guid: ee30ec2fbe85fd748ad6e86be2859700, type: 2}
+      itemCount: 1
+    socialStatRequirement: []
+  QuestInprogressConversation: {fileID: 11400000, guid: 4fd140d00c7d11948b7c4f8a194ff085,
+    type: 2}
+  QuestCompletedConversation: {fileID: 11400000, guid: 78b67391240012043b33854446c054f8,
+    type: 2}
+  Completed: 0
